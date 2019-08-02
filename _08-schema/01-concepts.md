@@ -21,7 +21,7 @@ When using one of the Grakn clients, to commit changes, we call the `commit()` m
 
 
 ## Entity
-An entity is a thing with a distinct existence. For example, `organisation`, `company` and `person`. The existence of each of these entities is independent of any other concept in the domain.
+An entity is a thing that can exist independently of any other concept in the domain, for example, `organisation`, `company` and `person`. Therefore, physical objects are always entities.
 
 ### Defining an entity
 To define a new entity, we use the `sub` keyword followed by `entity`.
@@ -159,7 +159,7 @@ Although the attributes above have been assigned to the `person` entity, they ar
 </div>
 
 
-### Entity to play a role
+### Making an entity play a role
 An entity can play a role in a relationship. To define the role played by an entity, we use the `plays` keyword followed by the role's label.
 
 <div class="tabs">
